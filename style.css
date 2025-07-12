@@ -68,3 +68,59 @@ header {
     object-fit: cover;
 }
 
+.cta-button{
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+}
+
+.features {
+    padding: 60px 10%;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.features h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.features-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.feature{
+    padding: 20px;
+    width: 220px;
+}
+
+.feature-icon {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+}
+
+.quote {
+    padding: 60px 10%;
+    background-color: #fff3cd;
+    text-align: center;
+    font-style: italic;
+}
+
+.quote footer {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
