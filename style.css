@@ -69,8 +69,8 @@ header {
 }
 
 .cta-button{
-    background-color: #007bff;
-    color: #fff;
+    background-color: #ffff;
+    color: #1E88E5;
     padding: 12px 24px;
     border: none;
     border-radius: 8px;
@@ -80,7 +80,7 @@ header {
 }
 
 .cta-button:hover {
-    background-color: #0056b3;
+    background-color: #e3f2fd;
 }
 
 .features {
@@ -131,15 +131,19 @@ blockquote {
 }
 
 .quote footer {
-    background-color: none;
-    padding: 0;
-    margin-top: 20px;
-    font-weight: bold;
+  background: none;         /* Removes black background */
+  padding: 0;
+  color: #222;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1rem;
+  display: inline-block;    /* Helps remove block-level background bugs */
 }
+
 
 .CTA {
     padding: 60px 10%;
-    background-color: #4f46e5;
+    background-color:#1E88E5;
     color: #222;
     font-style: normal;
     font-weight: bold;
